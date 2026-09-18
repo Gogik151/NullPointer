@@ -1,0 +1,52 @@
+{
+  "ambient.heartbeat": {
+    "subtitle": "subtitles.nullpointer.heartbeat",
+    "sounds": [
+      {
+        "name": "minecraft:entity/warden/heartbeat",
+        "type": "event",
+        "pitch": 0.8,
+        "volume": 1.0
+      }
+    ]
+  },
+  "entity.walker.drone": {
+    "subtitle": "subtitles.nullpointer.walker.drone",
+    "sounds": [
+      {
+        "name": "minecraft:block/respawn_anchor/deplete",
+        "type": "event",
+        "pitch": 0.5,
+        "volume": 1.0
+      }
+    ]
+  },
+  "jumpscare.screech": {
+    "subtitle": "subtitles.nullpointer.screech",
+    "sounds": [
+      {
+        "name": "minecraft:entity/warden/sonic_boom",
+        "type": "event",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:entity/elder_guardian/curse",
+        "type": "event",
+        "pitch": 0.4,
+        "volume": 1.0
+      }
+    ]
+  },
+  "whisper": {
+    "subtitle": "subtitles.nullpointer.whisper",
+    "sounds": [
+      {
+        "name": "minecraft:ambient/cave/cave3",
+        "type": "event",
+        "pitch": 1.2,
+        "volume": 0.9
+      }
+    ]
+  }
+}

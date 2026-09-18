@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "ru.white.nullpointer.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "server.ServerPlayerEntityMixin"
+  ],
+  "client": [
+    "client.InGameHudMixin",
+    "client.CameraMixin",
+    "client.HandledScreenMixin",
+    "client.EntityLookMixin",
+    "client.MusicTrackerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "nullpointer",
+  "version": "${version}",
+  "name": "Project: NullPointer",
+  "description": "Psychological horror mod with fake crashes, screen distortions, and meta-elements.",
+  "authors": [
+    "WhiteTeam"
+  ],
+  "contact": {
+    "homepage": "https://github.com/Gogik151"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "ru.white.nullpointer.NullPointerMod"
+    ],
+    "client": [
+      "ru.white.nullpointer.client.NullPointerClient"
+    ]
+  },
+  "mixins": [
+    "nullpointer.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
